@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Registration</title>
+    <link rel="stylesheet" href="styles/app.css">
+</head>
+<body>
+    <header><b>REGISTRATION FORM</b></header>
+    <nav>
+        <a href="/index.html">Home Page</a><br />
+        <a href="/help.html">Help Page</a>
+    </nav>
+
+    <section>
+        <p>Link a</p>
+        <p>Link b</p>
+        <p>Link c</p>
+    </section>
+
+    <form id="myForm" action="registration.html">
+        First name: <input type="text" name="fname"><br>
+        Last name: <input type="text" name="lname"><br>
+        Age: <input type="number" name="age"><br><br>
+        <p>
+            Alignment: <br />
+            Hero(ine): <input type="radio" name="aff" />
+            Villain(ess): <input type="radio" name="aff" />
+        </p>
+
+        <input type="button" onclick="myFunction()" value="Submit" />
+    </form>
+
+    <b>Character Info</b>
+    <div id="summary"></div>
+
+    <script src="scripts/app.js"></script>
+    <footer>(c) Copyright</footer>
+</body>
+</html>

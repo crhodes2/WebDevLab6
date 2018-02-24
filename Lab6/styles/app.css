@@ -1,0 +1,38 @@
+﻿/* HEADER */
+
+header {
+    background-color: sandybrown;
+    color: brown;
+    height: 40px;
+    padding-top: 50%;
+}
+
+/* BODY */
+
+body {
+    font-family: Times New Roman;
+    font-size: 15px;
+    background-color: lightgoldenrodyellow;
+    text-emphasis-color: brown;
+}
+
+nav {
+    background-color: peachpuff;
+    color: azure;
+    height: 40px;
+    padding-top: 50%;
+}
+
+section.class {
+    color: orange;
+    font-style: italic;
+}
+
+form.class {
+padding-top: 5px;
+padding-bottom: 5px;
+}
+
+table {
+border-width: 2px;
+}
